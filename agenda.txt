@@ -1,0 +1,13 @@
+# Stage Timer agenda
+# One block per line:   duration | speaker | description | warn (optional)
+#   duration / warn:    10  = 10 min,   10:30 = 10 min 30 s,   1:15:00 = 1 h 15 min
+# Lines starting with # are ignored.
+# Default warning time for all blocks (yellow timer):
+warn = 2
+
+5     | Anna Berger    | Welcome & agenda
+20    | Marko Novak    | Keynote: The road ahead
+15:30 | Julia Weiss    | Customer story: Migrating to the cloud | 3
+10    | —              | Coffee break | 1
+25    | Tom Fischer    | Deep dive: Architecture
+10    | Anna Berger    | Q&A and closing
